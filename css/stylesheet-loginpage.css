@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.home-body{
+    background: rgb(15,33,46);
+    background: linear-gradient(90deg, rgba(15,33,46,1) 0%, rgba(52,104,142,1) 100%);
+    width: 100%;
+}
+.content-body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    background-color: transparent;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.7vw;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+}
+.box-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+    width: 70vw;
+    height: 70vh;
+    background-color: transparent;
+}
+.box{
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 1vw;
+    transition: 0.55s;
+}
+.box:hover{
+    box-shadow: 0 0 3vh #0F212E;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    text-align: center;
+    margin-bottom: 4vh;
+    font-size: 3.3vw;
+    color: #0F212E;
+}
+input{
+    padding: 1.8vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border: 0;
+    background-color: rgb(226, 226, 226);
+    color: #0F212E;
+    border: 0.1vh solid rgb(226, 226, 266);
+}
+input:focus{
+    border: 0.1vh solid #33658A;
+    box-shadow: 0 0 0.5vh #0F212E;
+}
+input:hover{
+    box-shadow: 0 0 0.5vh #0F212E;
+}
+button{
+    padding: 1.8vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-image: linear-gradient(90deg, rgba(52,104,142,1) 0%, rgb(15, 33, 46, 1) 100%);
+    background-size: 200%;
+    color: rgba(226, 226, 226, 0.377);
+    border: 0;
+    cursor: pointer;
+    transition:0.55s;
+}
+button:hover{
+    color: whitesmoke;
+    background-position: right;
+    box-shadow: 0 0 2.55vh #0F212E;
+}
+#nc{
+    font-size: 2vh;
+    margin-top: 2vh;
+}
+
+
+
+
+.fill{
+    background: rgb(15,33,46);
+    background: linear-gradient(90deg, rgba(52,104,142,1) 0%, rgba(15,33,46,1) 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fill2{
+    background: rgb(15,33,46);
+    background: linear-gradient(90deg, rgba(15,33,46,1) 0%, rgba(52,104,142,1) 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

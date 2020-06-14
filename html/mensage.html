@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" lang="pt-br">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="../css/stylesheet-contatopage.css">
+    <script src="../js/script.js"></script>
+    <title>Web Dev</title>
+</head>
+<body class="content-body">
+    <header>
+        <nav>
+            <ul class="list">
+                <li><a href="index.html" class="item-non-active">Home</a></li>
+                <li><a href="contato.html" class="item-non-active">Contato</a></li>
+                <li><a href="mensage.html" class="item-active">Mensagem</a></li>
+                <li><a href="login.html" class="item-non-active">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3 id="enviemsg">Entre em contato</h3>
+        <div class="box-form">
+            <form>
+                <input type="text" placeholder="Nome" required name="name" id="name">
+                <input type="text" placeholder="Assunto" required name="subject" id="subject">
+                <input type="email" placeholder="Email" required name="mail" id="mail">
+                <textarea type="text" placeholder="Escreva sua mensagem" required name="msg" id="msg"></textarea>
+                <button class="button" id="button-login" onclick=Enviar()>Enviar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

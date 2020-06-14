@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" lang="pt-br">
+    <link rel="stylesheet" href="../../css/stylesheet.css" type="text/css">
+    <script src="../js/script.js"></script>
+    <title>Web Dev</title>
+</head>
+<body class="content-body">
+    <header>
+        <nav>
+            <ul class="list">
+                <li><a href="../index.html" class="item-non-active">Home</a></li>
+                <li><a href="login.html" class="item-non-active">Login</a></li>
+                <li><a href="../linguagens.html" class="item-non-active">Voltar</a></li>
+                <li><a href="../contato.html" class="item-active">HTML</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="title-container">
+            <h3 id="title-teoria-1">HTML</h3>
+            <div class="content">
+                <p class="content-text">
+                    <div class="content-part">
+                        <b>O que é HTML?</b>
+                        <p>HTML é uma linguagem de marcação de hipertexto, resumindo e sem muita enrolação é a linguagem que você vai utilizar para fazer a estrutura da sua página, HTML que hoje (26/05/2020) está na sua versão 5, é baseado em tags.</p><br>
+                        <b>O que são tags?</b>
+                        <p>Tags são basicamente rótulos que indicam ao navegador a forma de apresentar o conteúdo, em HTML, praticamente tudo é uma tag, por exemplo, para você colocar um parágrafo você usa a tag "p".</p>
+                        <br>
+                        <b>Afinal como escrever essas tags?</b>
+                        <p>As tags do HTML sempre tem que ser abertas e depois fechadas, como esse exemplo:</p><br>
+                        &ltp&gtconteúdo&lt/p&gt<br>
+                        <br><p>Porém existem tags que se "autofecham" exemplo a tag "br" que serve para dar uma quebra de linha: </p><br>
+                        &ltbr&gt<br>
+                        <br><p><a href="https://pt.wikipedia.org/wiki/Tag_(linguagens_de_marca%C3%A7%C3%A3o)" class="link-topic">Aqui</a> você pode ver uma lista com todas as tags do HTML5, mas fique tranquilo que de cara você não precisa decorar todas, outra coisa bem importante são os atributos, são resumidamente as configurações da tag, lá você vai definir oque chamamos de classe e id (classe é como se fosse um grupo de elementos com o mesmo nome que os caracterizam, e id é um nome "único" para cada elemento), as principais tags e atributos são esses: <a class="link-topic" href="https://www.homehost.com.br/blog/tutoriais/tags-html/">clique aqui</a>.</p><br>
+                        <b>Estrutura básica de uma página HTML</b><br>
+                        <p></p><br>
+                        <b>O que são divs?</b>
+                        <p>Pode parecer algo um pouco abstrato no começo, divs são basicamente "containers/caixas" com um espaço dentro, nela você organiza o conteúdo, na maioria das vezes colocar um conteúdo dentro ou fora de uma div não vai mudar muita coisa, mais é sempre bom optar pelas "boas práticas", aliás é um padrão seguido em quase todos os sites.</p>
+                        <p>Para você entender melhor, veja essa imagem: </p><br>
+                        <img id="explicacao" src="../../img/explicacao.jpg" alt="Explicação Divs, créditos: https://www.google.com/url?sa=i&url=https%3A%2F%2Fpt.slideshare.net%2Ferwin_globio%2Fhtml-5-13754209%2F25-The_layoutdivheaderdivnav_divsection_divarticle_divsidebardivfooter&psig=AOvVaw25dv1tOsTvKS-CNX0t5Zab&ust=1590794132873000&source=images&cd=vfe&ved=0CAMQjB1qFwoTCOCWmZnY1-kCFQAAAAAdAAAAABAK">
+                        <p>Fonte: <a href=https://pt.slideshare.net/erwin_globio/html-5-13754209/25-The_layoutdivheaderdivnav_divsection_divarticle_divsidebardivfooter class="link-topic">https://pt.slideshare.net/erwin_globio/html-5-13754209/25-The_layoutdivheaderdivnav_divsection_divarticle_divsidebardivfooter</a></p><br>
+                        <p>Ignore os nomes, oque importa é que você pode ver que cada quadrado é um espaço na tela, ou seja, a div não é um elemento visível, apenas um espaço reservado para tal parte da sua página.</p><br>
+                        <b>Entenda de uma vez oque são os atributos "class" e "id"</b>
+                        <p>Vamos começar com exemplos do mundo real, provavelmente você sabe oque é uma cadeira certo? Ou seja, é como se você desse um nome pra esse grupo de objetos, isso é oque é classe em HTML, você está classificando um grupo de coisas com o mesmo nome. Agora vamos explicar sobre o id, imagine que você tem uma cadeira na sua casa e precisa informar ao seu amigo qual é a sua cadeira para que ele compre uma igual, você provavelmente vai falar a marca, ou o modelo, ou até mesmo a cor, isso é id! É simplesmente uma especificação de cada elemento. Todo elemento pode ter uma class e um id, exemplo:</p><br>
+                        &ltp class="titulos" id="titulo-1"&gtconteúdo&lt/p&gt<br>
+                        <br><b>Por que é importante atribuir classes e id´s à um elemento HTML?</b>
+                        <p>Há alguns motivos: </p>
+                        <ol>
+                            <li class="topic">Organização;</li>
+                            <li class="topic">Interação com CSS fica mais fácil;</li>
+                            <li class="topic">Interação com Javascript também fica mais fácil;</li>
+                        </ol><br>
+                        <b>Padrão Estrutural</b>
+                        <p>Após aprender tudo isso, você está apto à aprender a estrutura padrão de quase todos os sites da web, você não necessariamente tem que seguir exatamente como o padrão, mas, há algumas tags e classes que são utilizadas normalmente para uma finalidade.</p><br>
+                        <img id="explicacao2" src="../../img/explicacao2.png" alt="Explicação estrutura padrão"><br>
+                        <br><p>Muitas vezes você vai se deparar com páginas que dividem o conteúdo com muitas divs, isso é bem comum, para identificar cada div utilizamos o id e a classe para compreender o código.</p><br>
+                        <b>Não se sente tão seguro?</b>
+                        <p>Isso é normal, no começo HTML pode ser um pouco estranho e não tão óbvio, mais aos poucos você se acostuma facilmente. Caso tenha alguma dúvida (ou esqueceu alguma tag), na maioria das vezes uma rápida pesquisa no google resolve.</p>
+                        <h3 id="title-teoria-1">HTML - Dicas</h3>
+                        <b>Centralizar algo</b>
+                        <p>Umas das coisas mais "chatas" e importantes de decorar em HTML, concerteza é centralizar algo, você pode resolver todos os seu problemas de centralização aprendendo apenas uma única coisa... O display Flex do CSS!</p>
+                        <p>Primeiramente você terá que ter um leve conhecimento de CSS...</p><br>
+                        <img id="explicacao3" src="../../img/explicacao3.png" alt="Explicação estrutura padrão"><br>
+                        <br><p>Para ver mais detalhadamente, veja esta página: <a href="https://origamid.com/projetos/flexbox-guia-completo/" class="link-topic" target="_blank">clique aqui</a></p>
+                    </div>
+                </p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
